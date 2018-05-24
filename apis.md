@@ -8,8 +8,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2939-apima
 x-kinRank: "10"
 x-alexaRank: "972589"
 tags: APIMATIC
-created: "2018-05-22"
-modified: "2018-05-22"
+created: "2018-05-24"
+modified: "2018-05-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/apis.md
 specificationVersion: "0.14"
 apis: []
