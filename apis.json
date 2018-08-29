@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - APIMATIC",
+	"description": "This is a repository of apimatic APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/apimatic.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-29",
+	"url": "http://apimatic.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "APIMATIC",
+			"x-api-slug": "apimatic",
+			"description": "A Developer Experience Platform for APIs. Services include: Developer Portal Generation, SDK Generation, Documentation Generation, Code Sample Generation, API Specification Conversion, CI/CD Integrations, Package Publishing",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2939-apimatic.jpg",
+			"humanURL": "http://apimatic.io",
+			"baseURL": "https://apimatic.io//api/transform",
+			"tags": "APIMATIC",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "APIMATIC",
+	"include": [
+		{
+			"name": "APIMATIC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/apis.yaml"
+		}
+	]
+}

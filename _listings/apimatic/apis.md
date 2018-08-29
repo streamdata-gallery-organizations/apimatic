@@ -8,13 +8,13 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2939-apima
 x-kinRank: "10"
 x-alexaRank: "972589"
 tags: APIMATIC
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-29"
+modified: "2018-08-29"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/apis.md
 specificationVersion: "0.14"
 apis:
-- name: APIMATIC API Transformer Transform API Descriptions from/to various formats
-  x-api-slug: apimatic-api-transformer
+- name: APIMATIC API Transformer - Transform API Descriptions from/to various formats
+  x-api-slug: transform-post
   description: |-
     Transform API Descriptions from/to various formats e.g., Swagger, API Blueprint, RAML, WADL, Google Discovery, I/O Docs.
 
@@ -42,26 +42,19 @@ apis:
     * APIMATIC Format
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2939-apimatic.jpg
   humanURL: http://apimatic.io
-  baseURL: https://apimatic.io//api/transform//transform
-  tags: API Definition, Conversion, Tranform
+  baseURL: https://apimatic.io//api/transform
+  tags: Design, SDK, My API Stack, interesting, Stack Network, SaaS, Technology, API
+    Service Provider, Profiles, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/transform-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/transform-post-openapi.md
-- name: APIMATIC API Transformer
-  x-api-slug: apimatic-api-transformer
-  description: 'A Developer Experience Platform for APIs. Services include: Developer
-    Portal Generation, SDK Generation, Documentation Generation, Code Sample Generation,
-    API Specification Conversion, CI/CD Integrations, Package Publishing'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2939-apimatic.jpg
-  humanURL: http://apimatic.io
-  baseURL: https://apimatic.io//api/transform
-  tags: APIMATIC
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/apimatic/master/_listings/apimatic/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://api.video.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://apimatic.stack.network
 - type: x-blog
   url: https://apimatic.io/blog
 - type: x-crunchbase
